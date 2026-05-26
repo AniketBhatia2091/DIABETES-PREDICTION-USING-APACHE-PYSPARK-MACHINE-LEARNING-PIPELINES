@@ -1,0 +1,64 @@
+{
+    "LogisticRegression": {
+        "accuracy": 0.7886178861788617,
+        "roc_auc": 0.8642441860465117,
+        "f1_score": 0.7809282891590525,
+        "precision": 0.7851687607785169,
+        "recall": 0.7886178861788617
+    },
+    "DecisionTree": {
+        "accuracy": 0.6910569105691057,
+        "roc_auc": 0.7633720930232558,
+        "f1_score": 0.6951127698741697,
+        "precision": 0.7024112215749847,
+        "recall": 0.6910569105691057
+    },
+    "RandomForest": {
+        "accuracy": 0.7967479674796748,
+        "roc_auc": 0.8453488372093022,
+        "f1_score": 0.7883801645033994,
+        "precision": 0.7948745867953184,
+        "recall": 0.7967479674796748
+    },
+    "GradientBoosting": {
+        "accuracy": 0.7723577235772358,
+        "roc_auc": 0.8466569767441864,
+        "f1_score": 0.7640766190943643,
+        "precision": 0.7673482795434015,
+        "recall": 0.7723577235772359
+    },
+    "SupportVectorMachine": {
+        "accuracy": 0.7804878048780488,
+        "roc_auc": 0.8633720930232557,
+        "f1_score": 0.7714505776636713,
+        "precision": 0.7768024658268561,
+        "recall": 0.7804878048780488
+    },
+    "LogisticRegression_coefficients": {
+        "coefficients": [
+            0.3367526895952044,
+            0.96086775834084,
+            0.0,
+            0.0,
+            -0.00650837678105056,
+            0.547816810457677,
+            0.2580346931153736,
+            0.14045434803760726
+        ],
+        "intercept": -0.817499085440293,
+        "features": [
+            "Pregnancies",
+            "Glucose",
+            "BloodPressure",
+            "SkinThickness",
+            "Insulin",
+            "BMI",
+            "DiabetesPedigreeFunction",
+            "Age"
+        ]
+    },
+    "meta": {
+        "best_model_name": "LogisticRegression",
+        "best_roc_auc": 0.8642441860465117
+    }
+}
