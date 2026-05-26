@@ -44,3 +44,9 @@ env/
 metastore_db/
 derby.log
 spark-warehouse/
+
+# Local explanation and deployment guides (Keep local only, do not push to GitHub)
+PROJECT_EXPLANATION.md
+AWS_DEPLOYMENT.md
+Dockerfile
+
